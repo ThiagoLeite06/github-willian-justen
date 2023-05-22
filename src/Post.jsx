@@ -1,5 +1,4 @@
-export function Post() {
-    return (
-        <h1>Post</h1>
-    )
+export function Post(props) {
+    return <h1>Post by {props.name}</h1>
+
 }
